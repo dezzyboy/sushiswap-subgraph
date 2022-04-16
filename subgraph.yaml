@@ -6,14 +6,14 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: mainnet
+    network: godwoken
     source:
-      address: '0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac'
+      address: '0xd64B3DAf263b38c30A702a1C823cCfd68004dfE1'
       abi: Factory
-      startBlock: 10794229
+      startBlock: 80000
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 0.0.5
       language: wasm/assemblyscript
       file: ./src/mappings/factory.ts
       entities:
@@ -34,12 +34,12 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pair
-    network: mainnet
+    network: godwoken
     source:
       abi: Pair
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 0.0.5
       language: wasm/assemblyscript
       file: ./src/mappings/core.ts
       entities:
