@@ -1,0 +1,22 @@
+{
+  "network": "godwoken",
+  "factory_address": "0x167e1349BC83999F82F44213FD4690682CE0cCdA",
+  "weth_address": "0x9E858A7aAEDf9FDB1026Ab1f77f627be2791e98A",
+  "native_address": "0x7538C85caE4E4673253fFd2568c1F1b48A71558a",
+  "dai_address": "0x2c9Fc6087875646112f66a3C92fEF2d158FAa76e",
+  "usdt_address": "0x8E019acb11C7d17c26D334901fA2ac41C1f44d50",
+  "usdc_address": "0x186181e225dc1Ad85a4A94164232bD261e351C33",
+  "minimum_usd_threshold_new_pairs": "3000",
+  "minimum_liquidity_threshold_eth": "3",
+  "factory": {
+    "address": "0x167e1349BC83999F82F44213FD4690682CE0cCdA",
+    "startBlock": "90518"
+  },
+  "whitelist": [
+    "0x7538C85caE4E4673253fFd2568c1F1b48A71558a",
+    "0xad84341756bf337f5a0164515b1f6f993d194e1f",
+    "0x2c9Fc6087875646112f66a3C92fEF2d158FAa76e",
+    "0x186181e225dc1Ad85a4A94164232bD261e351C33",
+    "0x9E858A7aAEDf9FDB1026Ab1f77f627be2791e98A"
+  ]
+}
